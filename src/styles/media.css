@@ -1,0 +1,42 @@
+@media (max-width: 991px) and (min-width: 768px) {
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="3ce4c986-230f-0461-593d-512f0c488183"] {
+    opacity: 0;
+  }
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="7c12746b-143e-0dca-b1e2-d7a48c3b8cb4"] {
+    opacity: 0;
+  }
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="2843069a-137a-b931-13c1-6c2993fd603c"] {
+    opacity: 0;
+  }
+}
+@media (max-width: 767px) and (min-width: 480px) {
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="3ce4c986-230f-0461-593d-512f0c488183"] {
+    opacity: 0;
+  }
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="7c12746b-143e-0dca-b1e2-d7a48c3b8cb4"] {
+    opacity: 0;
+  }
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="2843069a-137a-b931-13c1-6c2993fd603c"] {
+    opacity: 0;
+  }
+}
+@media (max-width: 479px) {
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="3ce4c986-230f-0461-593d-512f0c488183"] {
+    opacity: 0;
+  }
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="7c12746b-143e-0dca-b1e2-d7a48c3b8cb4"] {
+    opacity: 0;
+  }
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="2843069a-137a-b931-13c1-6c2993fd603c"] {
+    opacity: 0;
+  }
+}

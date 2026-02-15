@@ -1,0 +1,90 @@
+---
+import { Image } from "astro:assets";
+
+import navbarContentSvg from "../assets/ui/Group-2085662978.svg";
+import tesseraLogo from "../assets/brand/Tessera-Logo.png";
+---
+<section class="header">
+  <div class="w-layout-blockcontainer container w-container">
+    <div class="header-content-wrapper">
+      <div
+        data-animation="default"
+        data-collapse="medium"
+        data-duration="400"
+        data-easing="ease"
+        data-easing2="ease"
+        role="banner"
+        class="navbar-2 w-nav"
+      >
+        <div class="navbar-content-area">
+          <a
+            href="index.html"
+            aria-current="page"
+            class="nav-logo w-nav-brand w--current"
+            ><Image
+              loading="lazy"
+              src={tesseraLogo}
+              alt="logo"
+              class="nav-logo-image"
+              width={150}
+              height={35}
+            /></a
+          >
+          <nav role="navigation" class="nav-menu-2 nav-menu-22 w-nav-menu">
+            <div class="menu-wrapper-2">
+              <div
+                data-w-id="cba8edd0-b187-947e-4dad-cc23cf820695"
+                class="menu-item top-menu"
+              >
+                <a
+                  href="/"
+                  aria-current="page"
+                  class="nav-link-3 w-nav-link w--current">Home</a
+                >
+              </div>
+              <!-- 
+              <div
+                data-w-id="cba8edd0-b187-947e-4dad-cc23cf82069b"
+                class="menu-item top-menu"
+              >
+                <a href="/features" class="nav-link-3 w-nav-link"
+                  >Features</a
+                >
+              </div>
+            -->
+            </div>
+          </nav>
+          <div class="humburger-button">
+            <div class="nav-button-wrap">
+              <div class="humberger-menu-wrap-2 w-nav-button">
+                <div
+                  class="humberger-menu-icon"
+                  data-w-id="6a5e5beb-bd2e-66da-697c-faf3ec9eb664"
+                  data-animation-type="lottie"
+                  data-src="https://cdn.prod.website-files.com/67125589ef7b1d839ed551fb/671d0849ea1fea578bcadbd2_lottieflow-menu-nav-06-000000-easey%20(5).json"
+                  data-loop="0"
+                  data-direction="1"
+                  data-autoplay="1"
+                  data-is-ix2-target="0"
+                  data-renderer="svg"
+                  data-default-duration="0"
+                  data-duration="2.36"
+                >
+                </div>
+              </div>
+              <div class="nav-button-wrapper">
+                <a href="/contact" class="nab-button w-inline-block">
+                  <div class="nav-button-border-color"></div>
+                  <div class="nav-gradient-shape"></div>
+                  <div class="nav-button-text-box">
+                    <div>Join the Waitlist now!</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
